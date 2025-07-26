@@ -1,0 +1,43 @@
+# Git
+.git
+.gitignore
+
+# Environment files (these should be provided at runtime)
+.env
+.env.*
+
+# GitHub App private key (should be mounted as secret)
+private-key.pem
+*.pem
+
+# Node.js (not used in Deno)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# Documentation
+README.md
+*.md
+
+# Test files
+test/
+*test.ts
+*test.js
+
+# Logs
+*.log 
