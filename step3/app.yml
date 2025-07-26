@@ -1,0 +1,12 @@
+name: UbntTHAICodeReviewerBotStep3
+description: An AI-powered code review bot that analyzes pull requests
+url: https://github.com/chiefkemist/ai-code-review-bot
+
+default_permissions:
+  contents: read
+  pull_requests: write
+  issues: write
+
+default_events:
+  - pull_request
+  - pull_request_review
